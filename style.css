@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0c243d;
+}
+
+h1 {
+  font-size: large;
+}
+
+.item-container {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 5px 0px;
+
+  background-color: blueviolet;
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.item-container i {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.task-item {
+  margin-top: 30px;
+}
+
+.app-container {
+  background-color: #449ceb;
+  padding: 40px;
+  width: 400px;
+  min-height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textInput {
+  height: 40px;
+  border-radius: 15px;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 8px;
+}
+
+.textInput:focus {
+  border: 4px solid #b49be1;
+}
+
+.btn {
+  border-radius: 5px;
+  width: 100px;
+}
